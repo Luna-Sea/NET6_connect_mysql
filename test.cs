@@ -49,8 +49,8 @@ sudo apt-get install libmysqlclient-dev
 dotnet add package MySql.Data
 ----------------
 3.
-string connectionString = "Server=localhost;Port=3306;Database=animals;Uid=guofu;Pwd=guofu;";
-//								        第0步创建的guofu账户,密码为guofu
+string connectionString = "Server=localhost;Port=3306;Database=animals;Uid=your_username;Pwd=your_password;";
+//								        第0步创建的your_username账户,密码为your_password
 MySqlConnection connection = new MySqlConnection(connectionString);
 connection.Open();
 
